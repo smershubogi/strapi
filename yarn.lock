@@ -5446,7 +5446,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-dismissable-layer@npm:1.0.4, @radix-ui/react-dismissable-layer@npm:^1.0.4":
+"@radix-ui/react-dismissable-layer@npm:1.0.4":
   version: 1.0.4
   resolution: "@radix-ui/react-dismissable-layer@npm:1.0.4"
   dependencies:
@@ -5470,7 +5470,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-dismissable-layer@npm:1.0.5":
+"@radix-ui/react-dismissable-layer@npm:1.0.5, @radix-ui/react-dismissable-layer@npm:^1.0.5":
   version: 1.0.5
   resolution: "@radix-ui/react-dismissable-layer@npm:1.0.5"
   dependencies:
@@ -5494,7 +5494,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-dropdown-menu@npm:^2.0.5":
+"@radix-ui/react-dropdown-menu@npm:^2.0.6":
   version: 2.0.6
   resolution: "@radix-ui/react-dropdown-menu@npm:2.0.6"
   dependencies:
@@ -5632,7 +5632,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-popper@npm:1.1.2, @radix-ui/react-popper@npm:^1.1.2":
+"@radix-ui/react-popper@npm:1.1.2":
   version: 1.1.2
   resolution: "@radix-ui/react-popper@npm:1.1.2"
   dependencies:
@@ -5661,7 +5661,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-popper@npm:1.1.3":
+"@radix-ui/react-popper@npm:1.1.3, @radix-ui/react-popper@npm:^1.1.3":
   version: 1.1.3
   resolution: "@radix-ui/react-popper@npm:1.1.3"
   dependencies:
@@ -5690,7 +5690,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-portal@npm:1.0.3, @radix-ui/react-portal@npm:^1.0.3":
+"@radix-ui/react-portal@npm:1.0.3":
   version: 1.0.3
   resolution: "@radix-ui/react-portal@npm:1.0.3"
   dependencies:
@@ -5710,7 +5710,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-portal@npm:1.0.4":
+"@radix-ui/react-portal@npm:1.0.4, @radix-ui/react-portal@npm:^1.0.4":
   version: 1.0.4
   resolution: "@radix-ui/react-portal@npm:1.0.4"
   dependencies:
@@ -7399,30 +7399,30 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strapi/design-system@npm:1.11.0":
-  version: 1.11.0
-  resolution: "@strapi/design-system@npm:1.11.0"
+"@strapi/design-system@npm:1.12.0-typescript.1":
+  version: 1.12.0-typescript.1
+  resolution: "@strapi/design-system@npm:1.12.0-typescript.1"
   dependencies:
     "@codemirror/lang-json": ^6.0.1
     "@floating-ui/react-dom": ^2.0.2
     "@internationalized/date": ^3.5.0
     "@internationalized/number": ^3.2.1
-    "@radix-ui/react-dismissable-layer": ^1.0.4
-    "@radix-ui/react-dropdown-menu": ^2.0.5
-    "@radix-ui/react-focus-scope": 1.0.3
-    "@strapi/ui-primitives": ^1.11.0
-    "@uiw/react-codemirror": ^4.21.13
+    "@radix-ui/react-dismissable-layer": ^1.0.5
+    "@radix-ui/react-dropdown-menu": ^2.0.6
+    "@radix-ui/react-focus-scope": 1.0.4
+    "@strapi/ui-primitives": 1.12.0-typescript.1
+    "@uiw/react-codemirror": ^4.21.18
     aria-hidden: ^1.2.3
-    compute-scroll-into-view: ^3.0.3
+    compute-scroll-into-view: ^3.1.0
     prop-types: ^15.8.1
     react-remove-scroll: ^2.5.6
   peerDependencies:
-    "@strapi/icons": ^1.5.0
+    "@strapi/icons": 1.12.0-typescript.1
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
     react-router-dom: ^5.2.0
     styled-components: ^5.2.1
-  checksum: 7337b1d72db2321d6004a91637733a13a7a78cedfd97074fbc9b932a9371793871d22f60b0d47ac63ba3359be46226afc99d19ba11445930527b7e6520cc38db
+  checksum: cf966142378314ff3c7853e46244f6d85ceb064e9b95dde01e305f1a970412b5c9a5db35afec891e2ffd31592d3fb6745899f11846fc9f9e43f354a6d2564431
   languageName: node
   linkType: hard
 
@@ -8135,9 +8135,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strapi/ui-primitives@npm:^1.11.0":
-  version: 1.11.0
-  resolution: "@strapi/ui-primitives@npm:1.11.0"
+"@strapi/ui-primitives@npm:1.12.0-typescript.1":
+  version: 1.12.0-typescript.1
+  resolution: "@strapi/ui-primitives@npm:1.12.0-typescript.1"
   dependencies:
     "@radix-ui/number": ^1.0.1
     "@radix-ui/primitive": ^1.0.1
@@ -8145,12 +8145,12 @@ __metadata:
     "@radix-ui/react-compose-refs": ^1.0.1
     "@radix-ui/react-context": ^1.0.1
     "@radix-ui/react-direction": 1.0.1
-    "@radix-ui/react-dismissable-layer": ^1.0.4
+    "@radix-ui/react-dismissable-layer": ^1.0.5
     "@radix-ui/react-focus-guards": 1.0.1
-    "@radix-ui/react-focus-scope": 1.0.3
+    "@radix-ui/react-focus-scope": 1.0.4
     "@radix-ui/react-id": ^1.0.1
-    "@radix-ui/react-popper": ^1.1.2
-    "@radix-ui/react-portal": ^1.0.3
+    "@radix-ui/react-popper": ^1.1.3
+    "@radix-ui/react-portal": ^1.0.4
     "@radix-ui/react-primitive": ^1.0.3
     "@radix-ui/react-slot": ^1.0.2
     "@radix-ui/react-use-callback-ref": ^1.0.1
@@ -8163,7 +8163,7 @@ __metadata:
   peerDependencies:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-  checksum: 43ae932f4bdb02c81abeb496f4cc9248f7aa8330da226e6d4fa0ad8588f5a202aa6c30c2ca9583dd08edf94c5717e887fda4624d9120854673b047c2657af730
+  checksum: 80dd3cb4286b2322e6f156ff06d51be82d59d288a291c850af3fc6b34a0c3f3d7be59f006bf11d8ab35ef24eb95af2f59d902510aca84cbdf0c39fd0df15b150
   languageName: node
   linkType: hard
 
@@ -10019,7 +10019,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@uiw/react-codemirror@npm:^4.21.13":
+"@uiw/react-codemirror@npm:^4.21.18":
   version: 4.21.18
   resolution: "@uiw/react-codemirror@npm:4.21.18"
   dependencies:
@@ -13228,7 +13228,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"compute-scroll-into-view@npm:^3.0.3":
+"compute-scroll-into-view@npm:^3.1.0":
   version: 3.1.0
   resolution: "compute-scroll-into-view@npm:3.1.0"
   checksum: 224549d6dd1d40342230de5c6d69cac5c3ed5c2f6a4437310f959aadc8db1d20b03da44a6e0de14d9419c6f9130ce51ec99a91b11bde55d4640f10551c89c213
@@ -18591,6 +18591,13 @@ __metadata:
   version: 5.2.0
   resolution: "ignore@npm:5.2.0"
   checksum: 6b1f926792d614f64c6c83da3a1f9c83f6196c2839aa41e1e32dd7b8d174cef2e329d75caabb62cb61ce9dc432f75e67d07d122a037312db7caa73166a1bdb77
+  languageName: node
+  linkType: hard
+
+"ignore@npm:^5.2.4":
+  version: 5.2.4
+  resolution: "ignore@npm:5.2.4"
+  checksum: 3d4c309c6006e2621659311783eaea7ebcd41fe4ca1d78c91c473157ad6666a57a2df790fe0d07a12300d9aac2888204d7be8d59f9aaf665b1c7fcdb432517ef
   languageName: node
   linkType: hard
 
